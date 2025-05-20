@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Next.js project setup
+
+```npx create-next-app@latest my-static-site --typescript
+
+```
+
 ## Getting Started
 
 First, run the development server:
