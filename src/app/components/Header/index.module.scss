@@ -1,0 +1,31 @@
+.headerContent {
+  width: 100vw;
+  // background: #0c0f0a;
+  // #0B0500 black
+  // #FE5E41 orange ish
+  // #F3C178
+  // #D8F1A0 lime
+  background: #00a878;
+  color: black;
+  // color: white;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navContainer {
+  padding: 1rem;
+}
+
+.nav {
+  font-size: 18px;
+  a {
+    margin: 24px;
+    &:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+}
