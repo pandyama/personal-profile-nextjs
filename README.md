@@ -6,6 +6,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ```
 
+## Git
+
+```
+git remote remove origin
+git remote add origin https://<TOKEN>@github.com/<REPO-OWNER-USERNAME>/<REPO-NAME>
+git push
+```
+
 ## Getting Started
 
 First, run the development server:
