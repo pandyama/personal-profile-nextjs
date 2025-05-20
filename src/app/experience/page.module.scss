@@ -1,0 +1,129 @@
+// background: #0c0f0a;
+// #0B0500 black
+// #FE5E41 orange ish
+// #F3C178
+// #D8F1A0 lime
+
+.Card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 18px;
+  max-width: 400px;
+  margin: 20px 0 0 20px;
+  transition: box-shadow 0.2s ease;
+}
+
+.Carousel {
+  //   margin: 0 auto;
+  padding: 6px 0;
+  max-width: 250px;
+  overflow: hidden;
+  display: flex;
+
+  &:hover .Slider {
+    animation-play-state: paused;
+  }
+
+  &:hover .SliderReverse {
+    animation-play-state: paused;
+  }
+}
+
+.Slider {
+  will-change: transform;
+  animation: scrolling 10s linear infinite;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.SliderReverse {
+  will-change: transform;
+  animation: scrollingReverse 10s linear infinite;
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollingReverse {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.card-content {
+  font-size: 1rem;
+  color: #555;
+}
+
+.Timeline {
+  position: relative;
+  margin: 40px auto;
+  padding-left: 30px;
+  border-left: 2px solid #ccc;
+  max-width: 600px;
+}
+
+.TimelineItem {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.TimelineMarker {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #3498db;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #3498db;
+  transform: translateX(-50%);
+}
+
+.TimelineContent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  gap: 4px;
+}
+
+.TimelineDate {
+  font-weight: bold;
+  font-size: 1.11rem;
+  letter-spacing: 2.5px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.TimelineDescription {
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  //   letter-spacing: 1px;
+}
