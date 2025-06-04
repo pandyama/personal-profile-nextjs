@@ -16,6 +16,7 @@ const Header = ({ title }: HeaderProps) => {
         <nav className={styles.nav}>
           <Link href='/'>Home</Link>
           <Link href='/experience'>Experience</Link>
+          <Link href='/projects'>Projects</Link>
           {/* <Link href='/experience'>Projects</Link> */}
         </nav>
       </div>
