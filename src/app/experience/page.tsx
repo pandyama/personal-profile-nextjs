@@ -2,13 +2,13 @@
 import AwsDark from '../../../public/icons/aws'
 import LineEnd from '../../../public/icons/DoubleArrowRight'
 import Javascript from '../../../public/icons/javascript'
-import Location from '../../../public/icons/location'
+// import Location from '../../../public/icons/location'
 import Nodejs from '../../../public/icons/nodejs'
 import Postgresql from '../../../public/icons/postgresql'
 import React from '../../../public/icons/react'
 import Redux from '../../../public/icons/redux'
 import Sass from '../../../public/icons/sass'
-import Timeline from '../../../public/icons/timeline'
+// import Timeline from '../../../public/icons/timeline'
 import Typescript from '../../../public/icons/typescript'
 import styles from './page.module.scss'
 import Page from '@/app/components/Page'
@@ -21,25 +21,52 @@ type HeaderProps = {
 const Experience = ({ title }: HeaderProps) => {
   console.log('🚀 ~ Header ~ title:', title)
   return (
-    <div>
+    <div className={styles.Container}>
       <Page />
       <div className={styles.Timeline}>
         <div className={styles.TimelineItem}>
           <div className={styles.TimelineMarker}></div>
           <div className={styles.TimelineContent}>
-            <div className={styles.TimelineDate}>MIKATA HEALTH</div>
+            <div className={styles.TimelineDate}>Mikata Health</div>
             <div className={styles.TimelineDescription}>
-              <Location />
-              &nbsp; CALGARY, ALBERTA
+              {/* <Location /> */}
+              &nbsp; Calgary, Alberta
             </div>
             <div className={styles.TimelineDescription}>
-              <Timeline />
+              {/* <Timeline /> */}
               &nbsp; Jan 2022 &nbsp;
               <LineEnd /> &nbsp;Present
             </div>
             <div className={styles.Card}>
               <h4>Fullstack Developer</h4>
-              <p>- coding</p>
+              <ul className={styles.ExperienceList}>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Built UI using React, Typescript and SCSS.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Programmed RESTful APIs using AWS Lambdas with Serverless.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Resolve production issues using AWS Cloudwatch & PostgreSQL
+                    database.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Help maintain and update the marketing site of the company
+                    using Gatsby framework.
+                  </p>
+                </li>
+              </ul>
 
               <div className={styles.Carousel}>
                 <div className={styles.Slider}>
@@ -108,20 +135,61 @@ const Experience = ({ title }: HeaderProps) => {
         <div className={styles.TimelineItem}>
           <div className={styles.TimelineMarker}></div>
           <div className={styles.TimelineContent}>
-            <div className={styles.TimelineDate}>EVERTZ MICROSYSTEMS</div>
+            <div className={styles.TimelineDate}>Evertz Microsystems</div>
             <div className={styles.TimelineDescription}>
-              <Location />
-              &nbsp; BURLINGTON, ONTARIO
+              {/* <Location /> */}
+              &nbsp; Burlington, Ontario
             </div>
             <div className={styles.TimelineDescription}>
-              <Timeline />
+              {/* <Timeline /> */}
               &nbsp; Feb 2019 &nbsp; <LineEnd /> &nbsp;Aug 2021
             </div>
 
             <div className={styles.Card}>
               <h4>Applications Engineer</h4>
-              <p>- coding</p>
-              <b>Javascript</b>
+              <ul className={styles.ExperienceList}>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Product specialist for an Elastic stack based data analytics
+                    product.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Experienced with building Kibana & Grafana dashboards to
+                    monitor stats.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Providing product training and practical demos to internal
+                    teams
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Provided on-site product training to existing customers
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Built a fullstack web-based form to collect and maintain
+                    Project specific information.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Web-based form was built using Angular, Nodejs, Expressjs &
+                    MongoDB.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -129,20 +197,74 @@ const Experience = ({ title }: HeaderProps) => {
         <div className={styles.TimelineItem}>
           <div className={styles.TimelineMarker}></div>
           <div className={styles.TimelineContent}>
-            <div className={styles.TimelineDate}>TATA CONSULTANCY SERVICES</div>
+            <div className={styles.TimelineDate}>Tata Consultancy Services</div>
             <div className={styles.TimelineDescription}>
-              <Location />
-              &nbsp; TORONTO, ONTARIO
+              {/* <Location /> */}
+              &nbsp; Toronto, Ontario
             </div>
             <div className={styles.TimelineDescription}>
-              <Timeline />
+              {/* <Timeline /> */}
               &nbsp; Jun 2017 &nbsp;
               <LineEnd /> &nbsp; Feb 2019
             </div>
             <div className={styles.Card}>
               <h4>Software Developer</h4>
-              <p>- coding</p>
-              <b>Javascript</b>
+              <ul className={styles.ExperienceList}>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Worked on Web and Mobile application as part of the R&D
+                    Agile Lab team.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Participated in daily standups and sprint planning meetings
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Providing product training and practical demos to internal
+                    teams
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Provided on-site product training to existing customers
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Built a fullstack web-based form to collect and maintain
+                    Project specific information.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Web-based form was built using Angular, Nodejs, Expressjs &
+                    MongoDB.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Responsible for server side and back end integration for a
+                    web Intake Form.
+                  </p>
+                </li>
+                <li className={styles.ExperienceItem}>
+                  <div className={styles.Dot}></div>
+                  <p className={styles.description}>
+                    Conducted REST API testing using Postman to add and
+                    authenticate user credentials
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </div>

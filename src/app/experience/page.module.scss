@@ -4,14 +4,18 @@
 // #F3C178
 // #D8F1A0 lime
 
+.Container {
+  // background-color: #1A1A1A;
+}
+
 .Card {
   background-color: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.1);
   padding: 18px;
-  max-width: 400px;
-  margin: 20px 0 0 20px;
-  transition: box-shadow 0.2s ease;
+  max-width: 500px;
+  // margin: 20px 0 0 20px;
+  // transition: box-shadow 0.2s ease;
 }
 
 .Carousel {
@@ -65,7 +69,7 @@
 }
 
 .Card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
 .card-title {
@@ -114,8 +118,8 @@
 
 .TimelineDate {
   font-weight: bold;
-  font-size: 1.11rem;
-  letter-spacing: 2.5px;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
   color: #333;
   margin-bottom: 6px;
 }
@@ -125,5 +129,34 @@
   font-size: 0.9rem;
   display: flex;
   align-items: center;
-  //   letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.ExperienceList {
+  list-style: none;
+  padding-left: 10px;
+  // border-left: 4px solid #2563eb;
+  position: relative;
+}
+
+.ExperienceItem {
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+
+.Description {
+  margin-top: 6px;
+  color: #374151;
+}
+
+.Dot {
+  position: absolute;
+  left: -11px;
+  top: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: #00a878;
+  border-radius: 50%;
 }
