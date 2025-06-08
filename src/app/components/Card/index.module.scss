@@ -1,0 +1,25 @@
+// background: #0c0f0a;
+// #0B0500 black
+// #FE5E41 orange ish
+// #F3C178
+// #D8F1A0 lime
+// background: #00a878;
+
+.Card {
+  // background-color: #ffffff;
+  // border-radius: 16px;
+  // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  // padding: 18px;
+  // max-width: 400px;
+  // margin: 20px 0 0 20px;
+  // transition: box-shadow 0.2s ease;
+
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 1rem;
+  transition: transform 0.2s ease;
+}
