@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: 'Parkinsans-Regular';
-  src: url('/fonts/Parkinsans/Parkinsans-Regular.ttf') format('truetype');
+  font-family: 'NationalPark-Regular';
+  src: url('/fonts/National/NationalPark-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Parkinsans-Regular', sans-serif;
+  font-family: 'NationalPark-Regular', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
