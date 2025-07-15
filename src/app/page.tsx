@@ -1,8 +1,9 @@
 // import Image from 'next/image'
 import styles from './page.module.css'
 import Page from './components/Page'
+import Footer from './components/Footer'
 
-export default function Home () {
+export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -52,6 +53,7 @@ export default function Home () {
           Go to nextjs.org →
         </a>
       </footer> */}
+      <Footer />
     </div>
   )
 }
