@@ -1,8 +1,9 @@
 // import Link from 'next/link'
 import React from '../../../public/icons/react'
 import styles from './page.module.scss'
-import Page from '@/app/components/Page'
 import Card from '../components/Card'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 type HeaderProps = {
   title?: string
@@ -20,7 +21,7 @@ const Projects = ({ title }: HeaderProps) => {
   console.log('🚀 ~ Projects', title)
   return (
     <div>
-      <Page />
+      <Header />
       <div className={styles.GridContainer}>
         <div className={styles.CardGrid}>
           <Card
@@ -39,6 +40,7 @@ const Projects = ({ title }: HeaderProps) => {
           />
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
