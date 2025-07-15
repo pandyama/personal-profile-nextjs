@@ -10,7 +10,9 @@ const Header = ({ title }: HeaderProps) => {
   console.log('🚀 ~ Header ~ title:', title)
   return (
     <div className={styles.headerContent}>
-      <h1>Meet Pandya</h1>
+      <Link href='/'>
+        <h1>Meet Pandya</h1>
+      </Link>
 
       <div className={styles.navContainer}>
         <nav className={styles.nav}>
