@@ -5,7 +5,7 @@ npx create-next-app@latest my-static-site --typescript
 
 ```
 
-![1](https://github.com/pandyama/produc-site/HomePage.png)
+![1](https://github.com/pandyama/product-site/blob/main/HomePage.png)
 
 ## Git
 
