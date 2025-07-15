@@ -10,8 +10,9 @@ import Redux from '../../../public/icons/redux'
 import Sass from '../../../public/icons/sass'
 // import Timeline from '../../../public/icons/timeline'
 import Typescript from '../../../public/icons/typescript'
+import Footer from '../components/Footer'
+import Header from '../components/Header'
 import styles from './page.module.scss'
-import Page from '@/app/components/Page'
 
 type HeaderProps = {
   title?: string
@@ -22,7 +23,7 @@ const Experience = ({ title }: HeaderProps) => {
   console.log('🚀 ~ Header ~ title:', title)
   return (
     <div className={styles.Container}>
-      <Page />
+      <Header />
       <div className={styles.Timeline}>
         <div className={styles.TimelineItem}>
           <div className={styles.TimelineMarker}></div>
@@ -269,6 +270,8 @@ const Experience = ({ title }: HeaderProps) => {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   )
 }
