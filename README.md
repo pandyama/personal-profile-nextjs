@@ -4,7 +4,6 @@
 npx create-next-app@latest my-static-site --typescript
 
 ```
-file:///home/meet/Pictures/Screenshots/Screenshot%20from%202025-07-14%2021-35-43.png
 
 ## Git
 
