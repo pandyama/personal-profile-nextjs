@@ -8,9 +8,15 @@
 
   /* display: grid; */
   /* grid-template-rows: 20px 1fr 20px; */
-  align-items: center;
+  /* align-items: center;
   justify-items: center;
-  min-height: 100svh;
+  min-height: 100svh; */
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   /* padding: 80px; */
   /* gap: 64px; */
   /* font-family: var(--font-geist-sans); */
@@ -28,9 +34,11 @@
 }
 
 .main {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh; */
+
+  flex: 1;
 
   /* gap: 32px; */
   /* grid-row-start: 2; */

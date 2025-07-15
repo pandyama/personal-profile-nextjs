@@ -1,17 +1,13 @@
-// import Link from 'next/link'
 import AwsDark from '../../../public/icons/aws'
 import LineEnd from '../../../public/icons/DoubleArrowRight'
 import Javascript from '../../../public/icons/javascript'
-// import Location from '../../../public/icons/location'
 import Nodejs from '../../../public/icons/nodejs'
 import Postgresql from '../../../public/icons/postgresql'
 import React from '../../../public/icons/react'
 import Redux from '../../../public/icons/redux'
 import Sass from '../../../public/icons/sass'
-// import Timeline from '../../../public/icons/timeline'
 import Typescript from '../../../public/icons/typescript'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Layout from '../components/Layout'
 import styles from './page.module.scss'
 
 type HeaderProps = {
@@ -19,11 +15,9 @@ type HeaderProps = {
   showBackButton?: boolean
 }
 
-const Experience = ({ title }: HeaderProps) => {
-  console.log('🚀 ~ Header ~ title:', title)
+const Experience = ({}: HeaderProps) => {
   return (
-    <div className={styles.Container}>
-      <Header />
+    <Layout>
       <div className={styles.Timeline}>
         <div className={styles.TimelineItem}>
           <div className={styles.TimelineMarker}></div>
@@ -270,9 +264,7 @@ const Experience = ({ title }: HeaderProps) => {
           </div>
         </div>
       </div>
-
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
