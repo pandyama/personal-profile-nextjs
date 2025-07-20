@@ -10,10 +10,10 @@ const Card = ({ title, description }: HeaderProps) => {
   console.log('🚀 ~ Header ~ Card:', title)
   return (
     <div className={styles.card}>
-      <div>
-        <h2>{title}</h2>
-        <p>{description}</p>
-      </div>
+      <h2>{title}</h2>
+      <p>{description}</p>
+      <button className={styles.button}>Test</button>
+      {/* <Button variant={'outline'}> Test</Button> */}
     </div>
   )
 }
