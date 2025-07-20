@@ -23,30 +23,15 @@
   transition: background-color 0.3s ease, opacity 0.3s ease;
 
   a {
-    position: relative;
-    margin: 24px;
-    color: inherit;
-    text-decoration: none;
-    z-index: 1;
-
-    display: inline-block;
-
-    &::before {
-      content: '';
-      position: absolute;
-      top: -6px;
-      right: -12px;
-      bottom: -6px;
-      left: -12px;
-      background-color: #ffffff;
-      opacity: 0;
-      border-radius: 24px;
-      transition: opacity 0.1s ease;
-      z-index: -1;
-    }
-
-    &:hover::before {
-      opacity: 0.8;
-    }
+    padding: 6px 12px; /* so text isn't flush */
+    border-radius: 24px;
+    /**
+    transition is applied here so browser knows to animate when we hover
+    or else it will not do anything
+    **/
+    transition: background-color 0.1s ease;
+  }
+  a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
