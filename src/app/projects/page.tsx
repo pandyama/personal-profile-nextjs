@@ -18,8 +18,8 @@ type HeaderProps = {
 const Projects = ({}: HeaderProps) => {
   return (
     <Layout>
-      <div className={styles.GridContainer}>
-        <div className={styles.CardGrid}>
+      <div className={styles.gridContainer}>
+        <div className={styles.cardGrid}>
           <Card
             title={'Yukold'}
             description={

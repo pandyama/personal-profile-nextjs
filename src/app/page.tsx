@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <Layout>
-        <h1>&nbsp; Hello, I am a Fullstack Developer</h1>
+        <h1>&nbsp; Hello,</h1>
         <h2>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i enjoy working on fullstack web and
           mobile apps.
         </h2>
-        <div className={styles.GridContainer}>
-          <div className={styles.CardGrid}>
+        <div className={styles.gridContainer}>
+          <div className={styles.cardGrid}>
             <Card
               title={'Yukold'}
               description={

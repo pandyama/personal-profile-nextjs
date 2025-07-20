@@ -9,10 +9,10 @@ type HeaderProps = {
 const Card = ({ title, description }: HeaderProps) => {
   console.log('🚀 ~ Header ~ Card:', title)
   return (
-    <div className={styles.Card}>
-      <div className={styles.CardContent}>
-        <h2 className={styles.CardTitle}>{title}</h2>
-        <p className={styles.CardDescription}>{description}</p>
+    <div className={styles.card}>
+      <div>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </div>
   )

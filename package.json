@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "scss-types": "typed-scss-modules src",
+    "scss-types:watch": "typed-scss-modules src --watch"
   },
   "dependencies": {
     "next": "15.3.2",
@@ -22,6 +24,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
+    "typed-scss-modules": "^8.1.1",
     "typescript": "^5"
   }
 }
