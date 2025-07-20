@@ -18,10 +18,14 @@ export default function Home() {
               description={
                 'Mobile app that provides weather forecast by searching for a city'
               }
+              buttonText='Github'
+              buttonLink='https://github.com/pandyama/yukold'
             />
             <Card
               title={'Jotdown'}
               description='Mobile app that allows users to create notes'
+              buttonText='Github'
+              buttonLink='https://github.com/pandyama/jotdown'
             />
             {/* <Card
             title={'Mailman'}
