@@ -27,12 +27,12 @@
   flex: 1;
 }
 
-.GridContainer {
+.gridContainer {
   display: flex;
   justify-content: center;
 }
 
-.CardGrid {
+.cardGrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: fit-content;
