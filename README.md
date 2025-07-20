@@ -31,4 +31,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Styling
+- In order to get sass modules types to work with nextjs, follow below steps
+- [ 1 ] Install `typed-scss-modules` using `npm typed-scss-modules`
+- [ 2 ] Add two scripts to `package.json`
+      ```
+       "scss-types": "typed-scss-modules src",
+       "scss-types:watch": "typed-scss-modules src --watch"
+      ```
+- [ 3 ] Run `npm scss-types` which will generate a bunch of `xxx.module.scss.d.ts` & sass style classnames have to be `camelCase`
+
+
+
+
+
+
