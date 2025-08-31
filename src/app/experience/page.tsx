@@ -1,12 +1,12 @@
-import AwsDark from '../../../public/icons/aws'
+// import AwsDark from '../../../public/icons/aws'
 import LineEnd from '../../../public/icons/DoubleArrowRight'
-import Javascript from '../../../public/icons/javascript'
-import Nodejs from '../../../public/icons/nodejs'
-import Postgresql from '../../../public/icons/postgresql'
+// import Javascript from '../../../public/icons/javascript'
+// import Nodejs from '../../../public/icons/nodejs'
+// import Postgresql from '../../../public/icons/postgresql'
 import React from '../../../public/icons/react'
-import Redux from '../../../public/icons/redux'
-import Sass from '../../../public/icons/sass'
-import Typescript from '../../../public/icons/typescript'
+// import Redux from '../../../public/icons/redux'
+// import Sass from '../../../public/icons/sass'
+// import Typescript from '../../../public/icons/typescript'
 import Layout from '../components/Layout'
 import styles from './page.module.scss'
 
@@ -34,95 +34,22 @@ const Experience = ({}: HeaderProps) => {
             </div>
             <div className={styles.Card}>
               <h4>Fullstack Developer</h4>
-              <ul className={styles.ExperienceList}>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Built UI using React, Typescript and SCSS.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Programmed RESTful APIs using AWS Lambdas with Serverless.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Resolve production issues using AWS Cloudwatch & PostgreSQL
-                    database.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Help maintain and update the marketing site of the company
-                    using Gatsby framework.
-                  </p>
-                </li>
-              </ul>
-
-              <div className={styles.Carousel}>
-                <div className={styles.Slider}>
-                  <div className={styles.SlideItem}>
-                    <AwsDark />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Postgresql />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Javascript />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Typescript />
-                  </div>
-                </div>
-                <div aria-hidden className={styles.Slider}>
-                  <div className={styles.SlideItem}>
-                    <AwsDark />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Postgresql />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Javascript />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Typescript />
-                  </div>
-                </div>
-              </div>
-              <div className={styles.Carousel}>
-                <div className={styles.SliderReverse}>
-                  <div className={styles.SlideItem}>
-                    <Nodejs />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <React />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Redux />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Sass />
-                  </div>
-                </div>
-                <div aria-hidden className={styles.SliderReverse}>
-                  <div className={styles.SlideItem}>
-                    <Nodejs />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <React />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Redux />
-                  </div>
-                  <div className={styles.SlideItem}>
-                    <Sass />
-                  </div>
-                </div>
-              </div>
+              <p>
+                - Core member of the software team working as Fullstack
+                developer on a suite of modern apps for healthcare.
+              </p>
+              <p>
+                - Able to build features involving both Frontend and Backend
+                changes.
+              </p>
+              <p>
+                - Strong understanding of React, Redux and SASS to build modern
+                UI
+              </p>
+              <p>
+                - Well versed in writing backend APIs using AWS Lambdas with
+                nodejs and knexjs for PostgreSQL.
+              </p>
             </div>
           </div>
         </div>
@@ -142,49 +69,27 @@ const Experience = ({}: HeaderProps) => {
 
             <div className={styles.Card}>
               <h4>Applications Engineer</h4>
-              <ul className={styles.ExperienceList}>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Product specialist for an Elastic stack based data analytics
-                    product.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Experienced with building Kibana & Grafana dashboards to
-                    monitor stats.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Providing product training and practical demos to internal
-                    teams
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Provided on-site product training to existing customers
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Built a fullstack web-based form to collect and maintain
-                    Project specific information.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Web-based form was built using Angular, Nodejs, Expressjs &
-                    MongoDB.
-                  </p>
-                </li>
-              </ul>
+              <p>
+                - Product specialist for an Elastic stack based data analytics
+                product.
+              </p>
+              <p>
+                - Experienced with building Kibana & Grafana dashboards to
+                monitor stats.
+              </p>
+              <p>
+                - Providing product training and practical demos to internal
+                teams
+              </p>
+              <p>- Provided on-site product training to existing customers</p>
+              <p>
+                - Built a fullstack web-based form to collect and maintain
+                Project specific information.
+              </p>
+              <p>
+                - Web-based form was built using Angular, Nodejs, Expressjs &
+                MongoDB.
+              </p>
             </div>
           </div>
         </div>
@@ -204,62 +109,18 @@ const Experience = ({}: HeaderProps) => {
             </div>
             <div className={styles.Card}>
               <h4>Software Developer</h4>
-              <ul className={styles.ExperienceList}>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Worked on Web and Mobile application as part of the R&D
-                    Agile Lab team.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Participated in daily standups and sprint planning meetings
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Providing product training and practical demos to internal
-                    teams
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Provided on-site product training to existing customers
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Built a fullstack web-based form to collect and maintain
-                    Project specific information.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Web-based form was built using Angular, Nodejs, Expressjs &
-                    MongoDB.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Responsible for server side and back end integration for a
-                    web Intake Form.
-                  </p>
-                </li>
-                <li className={styles.ExperienceItem}>
-                  <div className={styles.Dot}></div>
-                  <p className={styles.description}>
-                    Conducted REST API testing using Postman to add and
-                    authenticate user credentials
-                  </p>
-                </li>
-              </ul>
+              <p>
+                - Worked on Web and Mobile application as part of the R&D Agile
+                Lab team.
+              </p>
+              <p>
+                - Constant collaboration with other members of the Agile Lab
+                Team
+              </p>
+              <p>
+                - Conducted REST API testing using Postman to add and
+                authenticate user credentials
+              </p>
             </div>
           </div>
         </div>
